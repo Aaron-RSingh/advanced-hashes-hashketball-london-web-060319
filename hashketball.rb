@@ -118,23 +118,6 @@ def game_hash
 end
 
 
-
-#def home_team_name
-#  game_hash[:home][:team_name]
-#end
- 
-#puts home_team_name
-
-#def good_practices
-#  game_hash.each do |location, team_data|
-#    binding.pry
-#    team_data.each do |attribute, date|
-#      data.each do |data_item| 
-#    end
-#  end
-#end
-#end
-
 def num_points_scored(name)
    game_hash.each do |locations, team_data|
       team_data[:players].each do |player_name, data|
